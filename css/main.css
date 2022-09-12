@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-brand img {
+    width: 120px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.items {
+    
+    z-index: 10444440000;
+    width: 100%;
+    height: 50px;
+}
+
+.items ul {
+    margin-right: 80px;
+}
+
+.items ul .nav-item {
+    margin-left: 20px;
+}
+
+.items ul .nav-item .nav-link {
+    color: darkblue;
+}
+
+.welcome {
+    width: 100%;
+    height: 670px;
+    background-color: lightblue;
+
+}
+
+.welcome .w1 {
+    margin-top: 100px;
+    height: 500px;
+
+}
+
+.welcome .w1 h1 {
+    font-size: 50px;
+    margin-left: 70px;
+    color: white;
+}
+
+.welcome .w1 h1 span {
+    text-decoration: underline;
+    color: darkturquoise;
+}
+
+.welcome .w1 button {
+    margin-top: 30px;
+    margin-left: 70px;
+    color: white;
+    background-color: transparent;
+    border: white solid 2px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.welcome .w1 button:hover {
+    background-color: blue;
+    border: none;
+}
+
+.welcome .w2 {
+    margin-top: 100px;
+    height: 500px;
+
+
+}
+
+.welcome .w2 img {
+    width: 700px;
+    height: 500px;
+}
+
+.aboutus {
+    width: 100%;
+    height: 800px;
+
+}
+
+.aboutus .head {
+    width: 100%;
+    height: 120px;
+
+    text-align: center;
+}
+
+.aboutus .head h2 {
+    font-size: 40px;
+}
+
+.aboutus .head p {
+    color: grey;
+}
+
+.aboutus .a1 {
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+.aboutus .a1 p {
+    margin-left: 40px;
+}
+
+.aboutus .a1 h3 {
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.aboutus .a1 h4 {
+    margin-left: 40px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.aboutus .a1 #p {
+    margin-left: 80px;
+
+}
+
+.aboutus .a1 #p2 {
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+
+.aboutus .a1 i {
+    font-size: 40px;
+    position: relative;
+    right: 10px;
+    color: blue;
+
+}
+
+.aboutus .a1 i:hover {
+    color: darkblue;
+}
+
+.aboutus .a2 {
+    margin-top: 50px;
+    height: 500px;
+
+}
+
+.aboutus .a2 img {
+    width: 700px;
+    height: 500px;
+}
+
+.space {
+    width: 100%;
+    height: 50px;
+}
+
+.ser {
+    margin-top: 1000px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(135, 206, 250, 0.279);
+}
+
+.ser .head {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+
+    text-align: center;
+}
+
+.ser .head h2 {
+    font-size: 40px;
+}
+
+.ser .container-fluid .row {
+    justify-content: center;
+}
+
+.ser .head p {
+    color: grey;
+}
+
+.ser .s {
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    height: 100px;
+    justify-content: center;
+    margin: 20px;
+    background-color: white;
+    transition: all 1s;
+}
+.ser .s:hover{
+    transform: translateY(-5px);
+}
+
+.ser .s h5 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.ser .s p {
+    margin-left: 50px;
+}
+
+.ser .s p i {
+    font-size: 30px;
+    color: palevioletred;
+
+}
+.why{
+    width: 100%;
+    height: 750px;
+    background-color: darkblue;
+}
+
+.why .head {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+
+    text-align: center;
+}
+
+.why .head h2 {
+    font-size: 40px;
+    color:white;
+}
+.why .head p{
+    color:white
+}
+.why .container-fluid .row{
+    justify-content: center;
+}
+.why .wh{
+    text-align: center;
+    color: white;
+    position: relative;
+    top:30px;
+    height: 330px;
+    margin: 30px;
+    background-color: rgba(0,0,0,0.1);
+    transition: all 1s;
+}
+.why .wh:hover{
+    background-color:rgba(0,0,0,0.5) ;
+}
+.why .wh i{
+    font-size: 60px;
+    margin: 30px 0;
+}
+.why .wh h6{
+    font-size: 30px;
+}
+
+.why .wh  a{
+    position: relative;
+    top: 20px;
+    color:white;
+}
+.why .wh2 {
+    color:white;
+    text-align: center;
+    margin: 30px;
+    margin-top: 70px;
+    height: 100px;
+  
+}
+.why .wh2 #h7{
+    font-size: 50px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: lightblue;
+}
+footer .f{
+    color: white;
+    position: relative;
+    top: 30px;
+    height: 300px;
+    margin: 10px;
+}
+footer .f #h9{
+    font-size: 50px;
+}
+@media(max-width:780px){
+    .welcome {
+        width: 100%;
+        height: 670px;
+        background-color: lightblue;
+    
+    }
+    
+    .welcome .w1 {
+        margin-top: 100px;
+        height: 500px;
+    
+    }
+    
+    .welcome .w1 h1 {
+        font-size: 50px;
+        margin-left: 70px;
+        color: white;
+    }
+    
+    .welcome .w1 h1 span {
+        text-decoration: underline;
+        color: darkturquoise;
+    }
+    
+    .welcome .w1 button {
+        margin-top: 30px;
+        margin-left: 70px;
+        color: white;
+        background-color: transparent;
+        border: white solid 2px;
+        font-weight: bold;
+        border-radius: 30px;
+        width: 150px;
+        height: 50px;
+    
+    }
+    
+    .welcome .w1 button:hover {
+        background-color: blue;
+        border: none;
+    }
+    
+    .welcome .w2 {
+        margin-top: 100px;
+        height: 500px;
+    
+    
+    }
+    
+    .welcome .w2 img {
+        margin-top: 1700px;
+        margin-bottom: 50px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .aboutus {
+        width: 100%;
+        height: 3200px;
+    
+    }
+    
+    .aboutus .head {
+        width: 100%;
+        height: 120px;
+    
+        text-align: center;
+    }
+    
+    .aboutus .head h2 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+    
+    .aboutus .head p {
+        color: grey;
+    }
+    
+    .aboutus .a1 {
+        margin-top: 50px;
+        height: 680px;
+    
+    }
+    
+    .aboutus .a1 p {
+        margin-left: 40px;
+    }
+    
+    .aboutus .a1 h3 {
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    
+    .aboutus .a1 h4 {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .aboutus .a1 #p {
+        margin-left: 80px;
+    
+    }
+    
+    .aboutus .a1 #p2 {
+        margin-left: 40px;
+        font-size: 20px;
+    
+    }
+    
+    .aboutus .a1 i {
+        font-size: 40px;
+        position: relative;
+        right: 10px;
+        color: blue;
+    
+    }
+    
+    .aboutus .a1 i:hover {
+        color: darkblue;
+    }
+    
+    .aboutus .a2 {
+        margin: 50px 0;
+        height: 500px;
+    
+    }
+    
+    .aboutus .a2 img {
+        margin: 200px 0;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .space {
+        width: 100%;
+        height: 50px;
+    }
+    
+    .ser {
+        margin-top: 1000px;
+        width: 100%;
+        height: 1700px;
+        background-color: rgba(135, 206, 250, 0.279);
+    }
+    
+    .ser .head {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 120px;
+        background-color: transparent;
+    
+        text-align: center;
+    }
+    
+    .ser .head h2 {
+        font-size: 40px;
+    }
+    
+    .ser .container-fluid .row {
+        justify-content: center;
+    }
+    
+    .ser .head p {
+        color: grey;
+    }
+    
+    .ser .s {
+        position: relative;
+        top: 50px;
+        border-radius: 10px;
+        height: 200px;
+        justify-content: center;
+        margin: 20px;
+        background-color: white;
+        transition: all 1s;
+    }
+    .ser .s:hover{
+        transform: translateY(-5px);
+    }
+    
+    .ser .s h5 {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .ser .s p {
+        margin-left: 50px;
+    }
+    
+    .ser .s p i {
+        font-size: 30px;
+        color: palevioletred;
+    
+    }
+    .why{
+        width: 100%;
+        height: 2200px;
+        background-color: darkblue;
+    }
+    
+    .why .head {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 120px;
+        background-color: transparent;
+    
+        text-align: center;
+    }
+    
+    .why .head h2 {
+        font-size: 40px;
+        color:white;
+    }
+    .why .head p{
+        color:white
+    }
+    .why .container-fluid .row{
+        justify-content: center;
+    }
+    .why .wh{
+        text-align: center;
+        color: white;
+        position: relative;
+        top:30px;
+        height: 330px;
+        margin: 30px;
+        background-color: rgba(0,0,0,0.1);
+        transition: all 1s;
+    }
+    .why .wh:hover{
+        background-color:rgba(0,0,0,0.5) ;
+    }
+    .why .wh i{
+        font-size: 60px;
+        margin: 30px 0;
+    }
+    .why .wh h6{
+        font-size: 30px;
+    }
+    
+    .why .wh  a{
+        position: relative;
+        top: 20px;
+        color:white;
+    }
+    .why .wh2 {
+        color:white;
+        text-align: center;
+        margin: 30px;
+        margin-top: 70px;
+        height: 100px;
+      
+    }
+    .why .wh2 #h7{
+        font-size: 50px;
+    }
+    footer{
+        width: 100%;
+        height: 1500px;
+        background-color: lightblue;
+    }
+    footer .f{
+        color: white;
+        position: relative;
+        top: 30px;
+        height: 300px;
+        margin: 10px;
+    }
+    footer .f #h9{
+        font-size: 50px;
+    }
+}

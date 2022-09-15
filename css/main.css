@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .navbar{
     position:fixed;
     background-color: #fff;
@@ -996,9 +999,7 @@ footer .f #h9 {
 }
 
 @media (max-width:780px) {
-    body{
-        overflow-x: hidden;
-    }
+    
     
     .navbar{
         position:fixed;
